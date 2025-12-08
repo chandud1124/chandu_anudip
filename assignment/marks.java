@@ -1,3 +1,4 @@
+package assignment;
 import java.util.Scanner;
 public class marks {
     public static void main(String[] args) 
