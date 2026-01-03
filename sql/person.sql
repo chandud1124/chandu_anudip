@@ -1,0 +1,5 @@
+USE anpd3911;
+
+SELECT * FROM Person;
+
+ALTER TABLE Person ADD PRIMARY KEY(Person_ID);
