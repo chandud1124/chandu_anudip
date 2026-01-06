@@ -1,0 +1,81 @@
+# Compiled Java Files
+*.class
+
+# IDE Files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build & Output Directories
+bin/
+out/
+target/
+build/
+dist/
+lib/oracleJdk*/
+
+# OS Files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE Specific
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Temporary Files
+*.log
+*.tmp
+*.bak
+
+# Database Files
+*.db
+*.sqlite
+
+# Environment Variables
+.env
+.env.local
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Eclipse
+.eclipse
+
+# NetBeans
+nbproject/
+private/
+
+# System
+.AppleDouble
+.LSOverride
+
+# Python Cache (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node modules (if using Node.js)
+node_modules/
+package-lock.json
+
+# Backup Files
+*.bak
+*.backup
