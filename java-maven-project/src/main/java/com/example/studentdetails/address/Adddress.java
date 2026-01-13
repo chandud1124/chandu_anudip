@@ -1,50 +1,39 @@
 package com.example.studentdetails.address;
 
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 public class Adddress {
+    private int doorNumber;
     private String street;
     private String city;
-    private String state;
-    private String zipcode;
-    
-    // Constructor
-    public Adddress(String street, String city, String state, String zipcode) {
+    private int pincode;
+
+    public Adddress(int doorNumber, String street, String city, int pincode) {
+        super();
+        this.doorNumber = doorNumber;
         this.street = street;
         this.city = city;
-        this.state = state;
-        this.zipcode = zipcode;
+        this.pincode = pincode;
     }
-    
-    // Getters
+
+    public Adddress() {
+        super();
+    }
+
+    public int getDoorNumber() {
+        return doorNumber;
+    }
+
     public String getStreet() {
         return street;
     }
-    
+
     public String getCity() {
         return city;
     }
-    
-    public String getState() {
-        return state;
-    }
-    
-    public String getZipcode() {
-        return zipcode;
-    }
-    
-    // Setters
-    public void setStreet(String street) {
-        this.street = street;
-    }
-    
-    public void setCity(String city) {
-        this.city = city;
-    }
-    
-    public void setState(String state) {
-        this.state = state;
-    }
-    
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+
+    public int getPincode() {
+        return pincode;
     }
 }
